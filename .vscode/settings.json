@@ -1,0 +1,18 @@
+{
+  "[typescript]": {
+    "editor.formatOnPaste": true,
+    "editor.formatOnSave": true
+  },
+  "editor.formatOnPaste": true,
+  "editor.formatOnSave": true,
+
+  "jest.nodeEnv": { "NODE_ENV": "TEST" },
+  "jest.autoRun": {
+    "watch": false,
+    "onStartup": ["all-tests"],
+    "onSave": ["test-file", "test-src-file"]
+  },
+  "markdown.copyFiles.destination": {
+    "**": "docs/img/${documentBaseName}/"
+  }
+}
